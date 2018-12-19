@@ -22,7 +22,7 @@ function populateList(itemList, listToPopulate){
 
 function deleteItem(e){
     if(e.target.classList.contains('delete-button')){
-       liValue = e.target.previousSibling.value;
+       liValue = e.target.previousSibling.innerHTML;
        indexOfValue = items.indexOf(liValue);
        items.splice(indexOfValue, 1);
        filterList();
