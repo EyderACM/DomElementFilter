@@ -25,12 +25,12 @@ function deleteItem(e){
        liValue = e.target.previousSibling.value;
        indexOfValue = items.indexOf(liValue);
        items.splice(indexOfValue, 1);
-       populateList(items, itemList);
+       filterList();
     };
 }
 
-function filterList(e){
-    const wordToMatch = e.target.value;
+function filterList(){
+    const wordToMatch = document.querySelector('.note__form.text.search').value;
     const filteredList = items.filter(item => {
         const regex = new RegExp(wordToMatch, 'gi');
         return item.match(regex);
