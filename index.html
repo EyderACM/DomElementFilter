@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+<body>
+
+    <div class="container">
+      <div class="navbar">
+          <h1 class="navbar__title">Another To-do List</h1>
+      </div>
+      <div class="note">
+        
+        <!-- Note Header -->
+        <div class="note__header">
+          <h2>Search</h2>
+          <div class="note__form--search">
+            <input class="note__form text" type="text">
+          </div>
+        </div>
+
+        <!-- Note add-section -->
+        <div class="note__add">
+          <h2>Add Item</h2>
+          <form class="note__form--add">
+            <input class="note__form text" type="text">
+            <input class="note__form button" type="submit" value="Submit">
+          </form>
+        </div>
+
+        <!-- Note Items -->
+        <div class="note__items">
+          <h2>Items</h2>
+          <ul class="note__items list">            
+            <li class="note__items list__item">Item 1 <button class="list__item delete-button">X</button></li>
+            <li class="note__items list__item">Item 2 <button class="list__item delete-button">X</button></li>
+            <li class="note__items list__item">Item 3 <button class="list__item delete-button">X</button></li>
+            <li class="note__items list__item">Item 4 <button class="list__item delete-button">X</button></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    
+<script src="main.js"></script>    
+</body>
+</html>
