@@ -64,13 +64,17 @@ body{
 
 .note__items.list {
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .list-item.module {
     display: flex;
     justify-content: space-between;    
-    padding: 10px 0px;
+    align-items: center;
+    padding: 15px 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid#a8a8a8;
 }
 
 .delete-button {
