@@ -1,4 +1,4 @@
-html{
+html {
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -17,7 +17,7 @@ body{
     display: grid;
 }
 
-.navbar{
+.navbar {
     display: flex;
     background: rgb(255, 54, 54);
     color: white;
@@ -41,13 +41,39 @@ body{
     display: flex;
 }
 
-.note__form > *{
+.note__form > * {
     margin-bottom: 20px;
     margin-right: 15px;
     height: 30px;
 }
 
-.note__form.button{
+.note__form.button {
+    border-radius: 12px;
+    border: 6px solid #1f173a;
+    background: #1f173a; 
+    color: white;
+}
+
+.note__form.text {
+    flex: 1;   
+    border-radius: 10px;
+    border: 2px solid #a8a8a8; 
+}
+
+/* List items */
+
+.note__items.list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.list-item.module {
+    display: flex;
+    justify-content: space-between;    
+    padding: 10px 0px;
+}
+
+.delete-button {
     border-radius: 12px;
     border: 4px solid #ff1d1d;
     background: #ff1d1d; 
@@ -55,9 +81,4 @@ body{
 }
 
 
-.note__form.text{
-    flex: 1;   
-    border-radius: 10px;
-    border: 2px solid #a8a8a8; 
-}
 
