@@ -1,0 +1,63 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+}
+
+.navbar{
+    display: flex;
+    background: rgb(255, 54, 54);
+    color: white;
+    justify-content: center;
+}
+
+/* Note Layout */
+
+.note {
+    margin: 5px;
+    padding: 10px 20px;
+    justify-self: center;
+    align-self: center;
+    width: 600px;
+    box-shadow: 0px 4px 8px -2px rgba(0,0,0,0.75); 
+}
+
+/* Note Form */
+
+.note__form {
+    display: flex;
+}
+
+.note__form > *{
+    margin-bottom: 20px;
+    margin-right: 15px;
+    height: 30px;
+}
+
+.note__form.button{
+    border-radius: 12px;
+    border: 4px solid #ff1d1d;
+    background: #ff1d1d; 
+    color: white;
+}
+
+
+.note__form.text{
+    flex: 1;   
+    border-radius: 10px;
+    border: 2px solid #a8a8a8; 
+}
+
