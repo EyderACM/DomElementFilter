@@ -57,6 +57,7 @@ body{
 .note__form.text {
     flex: 1;   
     border-radius: 10px;
+    padding: 8px;
     border: 2px solid #a8a8a8; 
 }
 
